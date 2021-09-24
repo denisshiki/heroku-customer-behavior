@@ -3,7 +3,7 @@ import streamlit as st
 import ipywidgets as widgets
 import plotly.express as px
 
-url = 'C:/projects/customer/kmeans_data.csv'
+url = 'kmeans_data.csv'
 
 st.set_page_config(layout="wide")
 
@@ -59,7 +59,7 @@ def scatter_category(data):
 
 if __name__ == '__main__':
 
-	url = 'C:/projects/customer/kmeans_data.csv'
+	url = 'kmeans_data.csv'
 
 	data = get_data(url)
 
